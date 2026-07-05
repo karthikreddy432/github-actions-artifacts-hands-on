@@ -23,5 +23,4 @@ jobs:
       with:
         name: hello-artifact
         path: ./artifacts
-      run: echo cat ./artifacts/hello.txt
-      
+      run: cat ./artifacts/hello.txt
